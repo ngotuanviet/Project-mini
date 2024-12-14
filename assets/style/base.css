@@ -1,0 +1,36 @@
+:root{
+    --color-one :#8261EE;
+    --color-two :#FF589E;
+    --color-text: #1e1e1e;
+}
+body{
+    color: var(--color-text);
+    line-height: 1.6;
+}
+html{
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+.button{
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 45px;
+    background-color: white;
+    color: var(--color-text);
+    font-size: 13px;
+    font-weight: 500;
+}
+.button-two{
+    background-color: var(--color-two);
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+.button-two:hover{
+    background-color: var(--color-one);
+    color: white;
+    text-decoration: none;
+    
+}
